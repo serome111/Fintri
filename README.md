@@ -60,6 +60,31 @@ conectarme a la db desde consola
 ```docker exec -it postgres_db psql -U p_finanzas -d finanzas```
 
 
+# lluvia de ideas
+
+Cambio de color el panel o personalizacion
+Saldo en cartera que es el total sin ahorro
+El ahorro deberia tener un tipo, asi si no tiene tipo asignado se pueden dar sugerencias, para que invierta el miserable.
+Sugerencias por tipo de ingresos, Dado que x ingreso es mejor que este sugerir aumentar inversiones en x tipo de ingreso, y recomendar diversificacion
+Hoja de resumenes anual segun mes seleccionado, para ver
+En que me gasto mi dinero? (Chat gpt modulo para dividir informacion)
+https://gratu.co/collections/planeadores-1/products/planeador-financiero-digital
+Envio de correos para notificar pagos, una ves se registre cree notificaciones de pagos pendientes
+cituacio
+analisis de cuanto gastas en promedio en mercado u otros productos
+Decir si es mas facil arrendar o comprar y cual es el precio de vivienda segun tu ingreso que puedes aspirar
+Si soy perfil independiente calcular pago de planillas basado en ingresos como empleado
+cuanto debo y cuanto voy pagando= Pago de deudas
+	TIPO2=cdt,nu,fiducia,bono….
+	tipo3- fijjo o no fijo
+Ahorros en parejas para el software que hago
+Cuanto has pagado cuento debes
+https://www.youtube.com/watch?v=-_gjUHS3nWU
+Administrar panel, editar ocultar o mover como se ve mi mi menu
+Conectar con algun banco o billetera telefonica
+https://youtu.be/Uj64fpTNe8s
+https://youtu.be/wacQPTem7Uc
+
 
 # WEBgrafia
 https://medium.com/bitgrit-data-science-publication/forget-pip-install-use-this-instead-754863c58f1e
