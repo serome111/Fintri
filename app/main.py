@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import transaction, auth
+from app.routers import transaction, auth, word_predic
+# from app.routers.word_predic import router as palabras_router
 from app.db.database import engine, Base, get_db, init_db
 from apscheduler.schedulers.background import BackgroundScheduler
 from app.crud.transaction import update_fixed_transactions
@@ -27,7 +28,7 @@ Base.metadata.create_all(bind=engine)
 
 app.include_router(transaction.router)
 app.include_router(auth.router)
-
+app.include_router(word_predic.router, prefix="/v1", tags=["palabras"])
 scheduler = BackgroundScheduler()
 
 @app.on_event("startup")

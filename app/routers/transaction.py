@@ -65,7 +65,6 @@ def update_transaction(
 ):
     logger.debug("Request to update transaction for user_id: %s", current_user.id)
     db_transaction = crud_transaction.get_transaction(db, transaction_id=transaction_id, user_id=current_user.id)
-    # db_transaction = crud_transaction.get_transactions(db, transaction_id=transaction_id, user_id=current_user.id)
     if not db_transaction:
         raise HTTPException(status_code=404, detail="Transaction not found")
 
@@ -94,3 +93,4 @@ def sum_by_type(
 ):
     logger.debug("Request to sum transactions for user_id: %s", current_user.id)
     return crud_transaction.get_sum_by_type(db, user_id=current_user.id, month=month)    
+
